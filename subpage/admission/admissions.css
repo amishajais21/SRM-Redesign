@@ -1,0 +1,536 @@
+/* header start */
+nav{ background-color: none;z-index:30; position:absolute; top:0;}
+nav img{ width: 150px;}
+a.nav-link {color:white; font-weight: bold; }
+a.nav-link:hover {color:yellow;}
+@media (max-width: 992px) {.navbar-collapse {position: fixed;top: 0px; left: 0; padding-left: 15px; padding-right: 15px; padding-bottom: 15px; width: 45%; height: 100%;}
+.navbar-collapse.collapsing {left: -75%; transition: height 0s ease; }
+.navbar-collapse.show {left: 0; transition: left 300ms ease-in-out;}
+.navbar-toggler.collapsed ~ .navbar-collapse {transition: left 500ms ease-in-out; }
+#navbarCollapse{background-color: #313c4e;}
+.navbar ul{ padding-top:50px; }
+.navbar-toggler{border:none; }}
+@media (max-width: 457px) {.navbar-collapse { width: 69%; }}
+nav .active a{color:yellow;}
+nav .active .dropdown-content a{color:rgb(7, 7, 2);}
+nav .active .dropdown-content a:hover{color:rgb(255, 255, 255);}
+#logo-img:hover {content: url('images/logo3.png'); }
+.dropdown-content { display: none; position: absolute; background-color: rgba(255, 255, 255, 0.6);  min-width: 110px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
+.dropdown-content a {color: black;padding: 8px 16px; text-decoration: none; display: block; }
+.dropdown-content a:hover { background-color: rgb(47, 42, 112);  color:white;}
+.dropdown:hover .dropdown-content {display: block;}
+@media(max-width:992px){ .nav-item:nth-child(2):hover{padding-bottom: 80px;}
+.nav-item:nth-child(3):hover{padding-bottom: 80px; }
+.nav-item:nth-child(4):hover{padding-bottom: 160px;}
+.nav-item:nth-child(6):hover{padding-bottom: 80px;} }
+  /*header end */   
+
+/* footer start */
+.f-section1{background-color: #252E3E;}
+.f-section1 img{padding-left:100px;}
+@media(max-width:545px){.f-section1 img{padding-left:10px;}}
+/* section2 */
+h5{ color:white;}
+footer { width:100%; background-color:#313c4e; min-height:250px; }
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {list-style-type:none; padding:0px; display:table; margin-top: 10px; margin-right: auto; margin-bottom: 10px; margin-left: auto;}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+@media(max-width:454px){.foote_bottom_ul_amrc li a { margin:0 5px;}}
+@media(max-width:370px){.foote_bottom_ul_amrc li a { font-size:12px;}}
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none; padding-left:0; }
+.social_footer_ul li { padding-left:10px;padding-right:10px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+.f-section3{ background-color: #252E3E; color:white; padding: 20px 0;} /* section3 */
+footer a{text-decoration: none;}
+/* footer end */
+
+
+/* --------------------------------section1-------------------------- */
+.section1{ width:100%;}
+.section1 h1{height: 290px; padding-top: 150px; margin-top:0; color: white; font-weight: bold; padding-left:10%;}
+.section1 .text-container{background-image: url('images/bg.jpg'); background-size:cover; background-repeat: no-repeat; width:100%; overflow:hidden; position:absolute; top:0; left:0; z-index:-1;}
+/* --------navbar2------ */
+.navbar2 {width: 70%; background-color: rgb(0, 0, 0);  overflow: auto;  margin-left: auto;  margin-right: auto; position: relative; top:130px;}
+.navbar2 a {  float: left;padding: 12px; color: white; text-decoration: none; font-size: 17px;  width: 33%; text-align: center; }
+.navbar2 a:hover {  background-color: #212121}
+.navbar2 a.active {  background-color: #424242;}
+@media screen and (max-width: 929px) { .navbar2{ width:85%;}}
+@media screen and (max-width: 769px) {
+  .navbar2{  width:90%;    top:135px;  }
+  .navbar2 a {    font-size: 15px;}
+}
+@media screen and (max-width: 656px) {  .navbar2{ width:90%;top:138px; }
+  .navbar2 a {font-size: 13px;}
+}
+@media screen and (max-width: 586px) {  .navbar2{  top:122px;  }
+  .navbar2 a { font-size: 13px; height:60px;}}
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {.navbar2{ width:90%; position: relative;top:132px; }
+  .navbar2 a {  float: center; width: 33%;    font-size:12px;    height: 50px;padding-right:8px;padding-left:8px; text-align: center;  }}
+/*  -----------navbar3---- */
+.navbar3{position:relative; top:130px;}
+.navbar3 ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; border: 1px solid #e7e7e7; background-color: #dfdfdf;}
+.navbar3 li {float: left;}
+.navbar3 li a { display: block; color: rgb(0, 0, 0); text-align: center; padding: 14px 16px; text-decoration: none;}
+@media(max-width:586px){
+  .navbar3{
+  top:118px;
+  }
+}
+
+/* ----------------------------section1 end--------------------------- */
+
+
+/* ------------------------------section4------------------------------ */
+#section4{
+  position: relative;
+  top:160px;
+  padding-bottom: 150px;
+}
+
+/* --------------------------------section4 end------------------------- */
+body{
+  background-color: rgb(240, 240, 240);
+}
+.courses a{
+  color: gray;
+  text-decoration: none;
+  font-size: 20px;
+}
+.courses a:hover{
+  color: black;
+  text-decoration: underline;
+
+}
+.courses p{
+  font-size: 20px;
+  color: gray;
+}
+
+/* -----------------section4 & 5-------------------- */
+#section4{
+  overflow-x: hidden;
+}
+/* #section5{
+  background: url('images/bg2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+#section4 .india .btn1{
+  border:none;
+  /* background-color: rgb(18, 137, 141); */
+  background: linear-gradient(135deg, rgb(66, 36, 235) 0%, rgb(52, 192, 162) 100%);
+  text-decoration: none;
+  color: white;
+  padding:7px;
+  margin:7px;
+}
+
+#section4 .india .btn2{
+  border:none;
+  /* background-color: rgb(184, 74, 47); */
+  background: linear-gradient(135deg, rgb(216, 97, 18) 0%, rgb(235, 155, 81) 100%);
+  text-decoration: none;
+  color: white;
+  padding:7px;
+  margin:7px;
+}
+
+
+.btn1 a, .btn2 a{
+  
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+.btn1 a:hover, .btn2 a:hover{
+  color:cornsilk;
+}
+
+#section4 .india, #section5 .international{
+padding: 20px 0px;
+}
+#section4 .india h3{
+  font-size: 45px;
+  font-weight: bolder;
+  color:#010d9e;
+  
+}
+/* #section5 .international{
+  background-color: rgba(255, 255, 255, 0.5);
+} */
+#section5 .international ul{
+  list-style-type: none;
+}
+.international ul li{
+  background-color: darkslategray;
+  padding:5px;
+  color:white;
+  font-weight: bold;
+  /* margin: 5px; */
+}
+.international ul p{
+  background-color: rgb(172 169 139);
+  padding:5px;
+  margin:0;
+  font-weight: bold;
+  /* margin: 5px; */
+}
+#section5 .row{
+  padding:5px;
+}
+#section4 h2, #section5 h2{
+  font-size:30px;
+  text-transform: uppercase;
+  /* text-align: left; */
+  /* padding-left:30px; */
+
+}
+/* ---------------section4&5 end--------------- */
+
+/*  PART */
+.first {
+  float: left;
+  width: 30%;
+  height: 50%;
+  position: relative;
+}
+
+
+#bottom { 
+  position:relative;                  
+  bottom:0;                          
+  left:0;                          
+} 
+/* 
+.first span {
+  text-align: center;
+  align-items: center;
+  display: table-cell;
+  vertical-align: bottom;
+  align-self: flex-end;
+} */
+.first, .second, .third, .fourth, .last{
+  padding: 10px;
+  text-align: center;
+}
+
+.second{
+  float: left;
+  width: 30%;
+  height: 50%;
+  /* background-color: green; */
+}
+
+html, body, .container, .bacha
+{
+    height: 80%; 
+    min-height: 80%;
+}
+
+.third{
+  float: right;
+  width: 70%;
+  height: 60%;
+  /* background-color: rgb(0, 0, 255,0.6); */
+}
+
+.third2, .first2, .second2, .fourth2, .last2
+{
+  
+  background-color: rgb(160, 221, 213,0.4);
+}
+
+.first2, .second2
+{
+  margin-right: -10px;
+  padding: 10px;
+}
+
+.third2
+{
+  padding: 10px;
+}
+
+.last2 
+{
+  padding: 10px;
+  margin-top: -29px;
+  /* margin-left: -3px; */
+}
+.fourth2
+{
+  padding: 10px;
+  margin-top: -29px;
+  margin-left: -10px;
+}
+.fourth {
+  float: right;
+  width: 35%;
+  height: 40%;
+  /* background-color: #DDDDDD; */
+}
+
+.last{
+  float: right;
+  width: 35%;
+  height: 40%;
+  /* background-color: yellow; */
+}
+.work
+{
+  display: flex; 
+  flex-direction: row;
+  
+}
+
+.work1,.work2,.work3,.work4
+{
+  border: 2px solid #b41225;
+  margin: 40px 10px 10px 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#left 
+{
+  padding-bottom: 20px;
+  display: flex;
+  position: relative;
+  top: 50px;
+}
+
+.grid1 , .grid5
+{
+  z-index: 1;
+}
+
+.col{
+  border: 2px solid orange;
+}
+.grid2, .grid6
+{
+    background-color: #da9100;
+    z-index: 2;
+    width: 470px;
+    height: 320px;
+    margin-top: 30px;
+    margin-left: -40px;
+    color: white;
+     padding: 10px; 
+     font-family: 'Oswald', sans-serif; 
+     border-radius: 0px 23px 0px 23px;
+}
+
+.grid3{
+  background-color:#b41225;
+    z-index: 2;
+    width: 470px;
+    height: 320px;
+    margin-top: 87px;
+    margin-right: -40px;
+    color: white;
+     padding: 10px; 
+     font-family: 'Oswald', sans-serif; 
+     border-radius: 0px 23px 0px 23px;
+}
+
+.grid4{
+  padding-top: 60px; text-align: right;
+}
+
+
+@media (min-width : 950px) 
+{
+    .grid1 img , .grid4 img , .grid5 img
+    {
+      width:750px;
+      height: 385px;
+    }
+
+    .tile-grid{
+      /* position: absolute; */
+      margin-top: 50px;
+    }
+    
+}
+
+@media (max-width : 950px) 
+{
+    
+  #left, #right
+  {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .grid1 img, .grid4 img , .grid5 img
+  {
+    width: 100%;
+    height: 300px;
+    margin-right: 10px;
+  }
+
+  .grid4 img{
+    margin-top: -420px;
+  }
+  .grid2 ,.grid6
+  {
+   width: 70%;
+   margin-top: -43px;
+   margin-left: 120px;
+   /* margin-right: 70px; */
+  }
+  .grid3
+  {
+    z-index: 5;
+    position: relative; 
+    top: 290px; 
+    margin-left: 120px; 
+    width: 70%;
+  }
+
+  .grid5{
+    margin-top: 200px;
+  }
+
+  /* .container{
+    margin-top: 200px;
+  } */
+
+  .last2{
+    padding: 3px;
+    margin-top: -65px;
+  }
+
+  .fourth2{
+    padding: 15px;
+      margin-top: -65px;
+  }
+
+  .first2{
+    
+    padding: 1px;
+  }
+  /* .first{
+    height: 45%;
+  } */
+
+  .second2{
+    padding: 1px;
+  }
+  
+.f-section1
+{
+  margin-top: 230px;
+}
+/* .f-section2{
+  margin-top: -215px;
+} */
+}
+
+@media (max-width:907px)
+{
+  .last2{
+    padding: 4px;
+  }
+}
+
+
+@media (max-width:765px)
+{
+  .fourth2{
+    padding: 4px;
+  }
+
+  .second2{
+    padding: 0px;
+    margin-top: 26px;
+  }
+}
+
+@media (max-width:834px)
+{
+  .last2{
+    padding: 5px;
+  }
+}
+@media (max-width : 685px) 
+{
+    .grid2, .grid3,.grid6{
+        margin-left: 70px;
+    }
+}
+
+@media (max-width : 500px) 
+{
+    .grid2, .grid3, .grid6 {
+        margin-left: 50px;
+    }
+}
+#section2 a{
+  color:white;
+  text-decoration: none;
+}
+
+@media(max-width:950px){
+  #section2{
+    padding-bottom: 200px;;
+  }
+}
+
+/* PART */
+/* ----------------------------------section6-------------------------------- */
+#section6{
+  padding:30px 0;
+}
+#section6 h2{
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+/* ---------------------------------section6 end----------------------------- */
+/* ---------------------------------section7----------------------------- */
+#section7{
+  padding:30px 40px 40px 40px;
+}
+#section7 button:hover{
+  color:blue;
+}
+@media(max-width:950px){
+  #section7{
+    padding-bottom: 0;
+    padding-top:50px;
+  }
+}
+@media(max-width:768px){
+  #section6 .card{
+    margin-bottom: 60px;
+  }
+  #section6{
+    padding-top:60px;
+  }
+  #section6 h2{
+    padding-bottom: 30px;
+  }
+}
+@media(max-width:576px){
+  #section6 .card{
+    margin-bottom: 60px;
+  }
+  #section5{
+    position:relative;
+    top:40px;
+  }
+}
